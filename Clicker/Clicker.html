@@ -6,5 +6,15 @@
 <body>
     <button id="clickerButton">Click me!</button>
     <p>Clicks: <span id="clickCount">0</span></p>
+    <script>
+        let clickCount = 0;
+        const button = document.getElementById('clickerButton');
+        const clickCountDisplay = document.getElementById('clickCount');
+
+        button.addEventListener('click', () => {
+            clickCount++;
+            clickCountDisplay.textContent = clickCount;
+        });
+    </script>
 </body>
 </html>
