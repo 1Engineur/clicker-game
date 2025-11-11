@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> My first web page</title>
+    <head>
+    <body>
+        <h1> Welcome to my web page! </h1>
+        <img src = "images/my_image.jpg" alt = "My Image">
+        <p>NTNU clicker</p>
+        <p> I love to teach you HTML</p>
+    </body>
+</html>
+    
